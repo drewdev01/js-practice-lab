@@ -12,6 +12,6 @@ else console.log('its neither')
 //alternative
 
 // let ch = '9';
-// if (/[A-Za-z]/.test(ch)) System.out.println("Letter");
-// else if (/\d/.test(ch)) System.out.println("Digit");
-// else System.out.println("Neither");
+// if (/[A-Za-z]/.test(ch)) console.log("Letter");
+// else if (/\d/.test(ch)) console.log("Digit");
+// else console.log("Neither");

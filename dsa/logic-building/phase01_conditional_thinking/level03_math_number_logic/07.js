@@ -14,5 +14,5 @@ if(num%100===0)console.log('it can be evenly divided')
 // amount %= 500;
 // let notes100 = amount / 100;
 // amount %= 100;
-// if (amount == 0) System.out.println("2000: " + notes2000 + ", 500: " + notes500 + ", 100: " + notes100);
-// else System.out.println("Amount cannot be fully divided into these notes");
+// if (amount == 0) console.log("2000: " + notes2000 + ", 500: " + notes500 + ", 100: " + notes100);
+// else console.log("Amount cannot be fully divided into these notes");
