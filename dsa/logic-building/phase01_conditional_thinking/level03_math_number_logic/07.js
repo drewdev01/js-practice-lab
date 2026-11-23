@@ -16,3 +16,5 @@ if(num%100===0)console.log('it can be evenly divided')
 // amount %= 100;
 // if (amount == 0) console.log("2000: " + notes2000 + ", 500: " + notes500 + ", 100: " + notes100);
 // else console.log("Amount cannot be fully divided into these notes");
+
+//use Math.trunc() in divison above

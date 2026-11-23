@@ -11,7 +11,6 @@ else if(num===6)console.log('Saturday')
   else console.log('Sunday')
 
 //using switch case
-//replace with console.log()
 
 // let day = 3;
 // switch (day) {

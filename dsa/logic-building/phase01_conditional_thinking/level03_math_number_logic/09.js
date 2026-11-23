@@ -5,5 +5,5 @@ let a2=90
 
 let third=180-(a1+a2)
 
-if(a1+a2<180)console.log(third)
+if(a1+a2<180&&a1+a2>0)console.log(third)
   else console.log('not a valid triangle')
