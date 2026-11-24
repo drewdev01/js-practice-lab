@@ -17,6 +17,6 @@ console.log(diff)
 
 //alternative
 
-// let angle = Math.abs(hourAngle - minuteAngle);
-// if (angle > 180) angle = 360 - angle;
-// console.log("Smaller angle = " + angle);
+// let angle = Math.abs(hourAngle - minuteAngle)
+// if (angle > 180) angle = 360 - angle
+// console.log("Smaller angle = " + angle)

@@ -20,6 +20,9 @@ if (second > largest) largest = second;
 if (third > largest) largest = third;
 console.log("Largest = " + largest);
 
+//no need to compare a variable with 2 other variables cos we are not using console.log after every condition
+//even if second is not largest in first comaprison it will be corrected in next step as we are using if in every step
+
 /*
  * Explanation:
  * The variables `first`, and `largest` hold the values that the logic checks, counts, or transforms.

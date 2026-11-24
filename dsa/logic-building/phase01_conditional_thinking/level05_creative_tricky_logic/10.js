@@ -2,7 +2,7 @@
 
 let year=102
 
-let cent=Math.ceil(year/100)
+let cent=Math.ceil(year/100)  //wont work well with other Math functions
 
 console.log(cent+' century')
 
@@ -20,3 +20,12 @@ console.log(cent+' century')
 // }
 
 // console.log(cent + suffix + ' century');
+
+// Let’s test it with year = 102:
+// 102 / 100 = 1.02
+
+// Math.ceil(1.02) = 2 (2nd century)
+
+// Why it works: The 2nd century covers years 101 through 200. 
+// Any year from 101 to 200 divided by 100 will give a decimal between 1.01 and 2.00. 
+// Math.ceil() rounds all of those up to 2.

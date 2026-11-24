@@ -1,4 +1,5 @@
 //Take three numbers and check if they are in geometric progression. 
+//question assumes user will give in correct order
 
 let a=2
 let b=4
